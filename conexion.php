@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "mi_base_de_datos";
+$db = "colegio_parcial2";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
